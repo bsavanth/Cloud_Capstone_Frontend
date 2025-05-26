@@ -11,37 +11,3 @@
 /.vscode/
 /*.sublime-workspace
 /*.sublime-project
-
-# Environment files
-/src/environments/*.ts
-
-# Compiled TypeScript
-/**/*.js
-/**/*.js.map
-/**/*.d.ts
-
-# Logs
-npm-debug.log
-yarn-debug.log
-yarn-error.log
-pnpm-debug.log
-
-# OS generated files
-.DS_Store
-Thumbs.db
-
-# Optional: Coverage reports (for testing)
-/coverage/
-
-# Temporary files
-/.tmp/
-/tmp/
-
-# Optional: Angular cache
-/.angular/cache/
-
-# Optional: Package locks
-# (If you prefer not to version lock files)
-/package-lock.json
-/yarn.lock
-/pnpm-lock.yaml
