@@ -1,9 +1,12 @@
+# Angular build output
+/dist/
+/out-tsc/
+/.angular/
 
-
-/# Node modules
+# Node modules
 /node_modules/
 
-/# IDEs and editors
+# IDEs and editors
 /.idea/
 /.vscode/
 /*.sublime-workspace
