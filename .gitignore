@@ -1,7 +1,7 @@
 # Angular build output
-/dist/
+dist/
 /out-tsc/
-/.angular/
+.angular/
 
 # Node modules
 /node_modules/
