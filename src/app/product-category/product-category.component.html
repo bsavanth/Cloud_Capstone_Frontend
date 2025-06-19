@@ -1,0 +1,33 @@
+<div class="product-category-container">
+  <h1 class="title">Product Categories</h1>
+
+  <!-- Loading Spinner -->
+  <div *ngIf="loading" class="loading-spinner">
+    Loading...
+  </div>
+
+  <!-- Table -->
+  <table *ngIf="!loading && categories.length > 0" class="categories-table">
+    <thead>
+    <tr>
+      <th>ID</th>
+      <th>Category Name</th>
+      <th>Actions</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr *ngFor="let category of categories">
+      <td>{{ category.id }}</td>
+      <td>{{ category.name }}</td>
+      <td>
+        <button class="delete-button" (click)="deleteCategory(category.id)">Delete</button>
+      </td>
+    </tr>
+    </tbody>
+  </table>
+
+  <!-- Empty Message -->
+  <div *ngIf="!loading && categories.length === 0" class="empty-message">
+    No categories available.
+  </div>
+</div>
